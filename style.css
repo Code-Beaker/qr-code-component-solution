@@ -19,8 +19,10 @@
 .container {
   background: var(--light-gray);
   padding: 20px;
-  position: relative;
-  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .card {
@@ -31,9 +33,6 @@
   background: var(--white);
   text-align: center;
   box-shadow: 4px 4px 6px var(--light-gray);
-  position: absolute;
-  inset: 0;
-  margin: auto;
 }
 
 .qr-code img {
